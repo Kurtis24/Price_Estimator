@@ -1,0 +1,87 @@
+/* ResultsPage.css */
+.resultsPage {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.resultsHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.backButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #0056b3;
+}
+
+.resultsHeader h1 {
+  margin: 0;
+  color: #333;
+}
+
+.resultsContainer {
+  min-height: 400px;
+}
+
+.noResults {
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  color: #666;
+}
+
+.resultsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.resultCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resultCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resultCard h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.resultCard .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+.itemDetails {
+  margin-top: 15px;
+  color: #666;
+}
+
+.itemDetails p {
+  margin: 5px 0;
+}
+  
