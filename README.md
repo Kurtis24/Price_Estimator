@@ -1,8 +1,4 @@
-Below is an updated README.md file with some emojis added for a friendly touch. You can copy and paste this file into your project.
 
----
-
-```markdown
 # Clothing Search Backend API 👕🔍
 
 This backend API allows a frontend to perform a natural language search for clothing items. It extracts keywords (such as color, item type, and price) from a user’s query and then searches a pre-populated JSON "sheet" of clothing data to return the best matching results.
