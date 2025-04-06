@@ -1,7 +1,3 @@
-Below is an example README.md file that explains how to set up your backend. You can modify it to match your project details:
-
----
-
 # Clothing Search Backend API
 
 This backend API allows a frontend to perform a natural language search for clothing items. It extracts keywords (such as color, item type, and price) from a user’s query and then searches a pre-populated JSON "sheet" of clothing data to return the best matching results.
@@ -231,11 +227,3 @@ Your frontend should send the API key (from an environment variable with the pre
 This project is provided as-is. Feel free to modify and extend it to fit your requirements.
 
 ---
-
-## Contact
-
-For any issues or questions, please contact [Your Name] at [Your Email].
-
----
-
-This README provides an overview of the project, step-by-step setup instructions, and troubleshooting tips. Adjust any sections as needed for your specific project setup and requirements.
