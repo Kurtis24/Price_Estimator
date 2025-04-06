@@ -231,3 +231,7 @@ Your frontend should send the API key (using `REACT_APP_MY_API_KEY` in your `.en
 
 This project is provided as-is. Feel free to modify and extend it to fit your requirements.
 
+---
+
+## Link to Video: https://youtu.be/86zyYo_TtTU 
+
